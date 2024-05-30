@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="muhaf"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-02 06:19:50 PM"/>
+        <attribute name="created" value="bXVoYWY7REVTS1RPUC0yQThQTTJCOzIwMjQtMDMtMDI7MDY6MDY6MzUgUE07MjgzMw=="/>
+        <attribute name="edited" value="bXVoYWY7REVTS1RPUC0yQThQTTJCOzIwMjQtMDMtMDI7MDY6MTk6NTAgUE07MTsyOTQy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="m" type="Real" array="False" size=""/>
+            <declare name="c" type="Real" array="False" size=""/>
+            <declare name="q" type="Real" array="False" size=""/>
+            <declare name="t2" type="Real" array="False" size=""/>
+            <declare name="t1" type="Real" array="False" size=""/>
+            <input variable="m"/>
+            <input variable="c"/>
+            <input variable="t1"/>
+            <input variable="t2"/>
+            <assign variable="q" expression="m * c * (t2-t1)"/>
+            <output expression="&quot;Jadi Besaran Kalor Adalah &quot;" newline="False"/>
+            <output expression="q" newline="False"/>
+            <output expression="&quot; Joule&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
